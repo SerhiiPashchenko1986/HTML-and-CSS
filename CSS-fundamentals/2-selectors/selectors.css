@@ -1,0 +1,23 @@
+/*1. Type Selector - селектор елементу */
+h1 {
+	color: red;
+}
+h2 {
+	color: blue;
+}
+
+/* 2. Class selector - селектор класу */
+
+.warning {
+	color: orange;
+}
+
+.veryBig {
+	font-size: 60px;
+}
+
+/* 3. ID sekector - селектор ID */
+
+#info-about-site {
+	color: green;
+}
