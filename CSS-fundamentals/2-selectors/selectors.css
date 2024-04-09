@@ -68,4 +68,8 @@ font-size: 30px;
 										  [href^='https'] починається
 										  [href$='.com'] закінчується														  
 Universal selector Універсальний селектор -   * 			- Вибрати всі елементи
- */
+
+  div.test створить елемент із класом
+  span#test створить елемент з id */
+
+  /* [CSS selectors - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) */
