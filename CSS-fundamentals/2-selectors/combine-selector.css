@@ -1,0 +1,27 @@
+/* Об’єднання селекторів */
+div.warning.very-big#apple {
+	color: orange
+}
+
+/* ================================================= */
+/* Descendant selector - селектор дочірніх елементів всіх рівнів */
+main p {
+	/* color: green; */
+}
+
+/* childe selector - селектор прямих дочірніх елементів */
+main>p {
+	color: green;
+}
+
+/* ================================================== */
+
+/* Adjacent simpling selector - {один} наступний сусідній елемент */
+img + p {
+	/* color: green; */
+}
+
+/* General sibling selector - всі наступні сусідні елементи */
+img ~ p {
+	color: green;
+}

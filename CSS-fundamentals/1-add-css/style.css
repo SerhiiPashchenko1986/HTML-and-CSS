@@ -4,11 +4,18 @@ h3 {
 }
 
 /* 
-selector {
-	property: vaiue;
-	property2: vaiue2;
+selector {property: vaiue;property2: vaiue2;
 } 
 */
+
+/* можливий запис одним рядком */
+h3 { color: green; font-size: 20px; }
+
+/* частіше розбивається на декілька рядків */
+h2 {
+	color: blue;
+	  font-size: 20px;
+  }
 
 p {
 	color: brown;
