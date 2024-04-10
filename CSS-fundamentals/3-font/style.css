@@ -1,0 +1,61 @@
+/* Зміна шрифта */
+h1 {
+	font-family: "Rubik-Regular", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Завантажений шрифт */
+
+@font-face {
+	font-family: "Rubik-Regular";
+	src: url("./rubik-regular-webfont.woff2") format("woff2") url("./rubik-regular-webfont.woff") format("woff"),
+		url("./Rubik-Regular.ttf") format("ttf");
+	/* src: url("./Rubik-Regular.ttf"); */
+}
+/* Шрифт із Google fonts */
+h3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Сайт зі шрифтми - https://www.fontsquirrel.com/ */
+
+/* Курсив */
+h1 {
+	font-style: italic;
+}
+
+/* Жирний шрифт */
+
+p {
+	font-weight: bold;
+}
+
+/* Жирність шрифту */
+
+/* Словесні значення */
+/* font-weight: normal;
+font-weight: bold; */
+
+/* Словесні значення відносні */
+/* font-weight: lighter;
+font-weight: bolder; */
+
+/* Числові значення */
+/* font-weight: 100;
+font-weight: 200;
+font-weight: 300;
+font-weight: 400; /* normal */
+/* font-weight: 500;
+font-weight: 600;
+font-weight: 700; /* bold */
+/* font-weight: 800;
+font-weight: 900; */ 
