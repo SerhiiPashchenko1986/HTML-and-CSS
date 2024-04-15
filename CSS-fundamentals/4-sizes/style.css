@@ -1,0 +1,194 @@
+/* Розмір тексту (font-size) */
+/* Словесні значення від xx-small до xx-large 
+ абсолютні значення відносно дефолтного розміру шрифта користувача 
+ font-size: xx-small;
+font-size: x-small;
+font-size: small; 
+font-size: medium;  default 
+font-size: large;
+font-size: x-large;
+font-size: xx-large;
+font-size: xxx-large;
+
+ відносні значення 
+font-size: smaller;
+font-size: larger;
+
+ числові значення 
+font-size: 12px;
+font-size: 0.8em;
+
+ відсоткові значення - до батьківського font-size 
+font-size: 80%; */
+p {
+	font-size: xx-large;
+}
+
+/*  smaller, larger */
+div.sm {
+	font-size: large;
+}
+
+div.sm span {
+	font-size: smaller;
+}
+
+/* Числові значення */
+
+/* Абсолютні одиниці вимірювання */
+
+/* Одиниця виміру   -  Назва     - Значення в еквіваленті
+
+cm                  сантиметр    1cm = 37.8px = 25.2/64in
+
+mm                  міліметр     1mm = 1/10th of 1cm
+
+in                  дюйм         1in = 2.54cm = 96px
+
+pc                  піка         1pc = 1/6th of 1in
+
+pt                  пункт        1pt = 1/72nd of 1in
+
+px                  піксель      1px = 1/96th of 1in */
+
+h1 {
+	font-size: 2cm;
+}
+
+h2 {
+	font-size: 12mm;
+}
+
+h3 {
+	font-size: 1in;
+}
+
+h4 {
+	font-size: 2pc;
+}
+
+h5 {
+	font-size: 12pt;
+}
+
+h6 {
+	font-size: 24px;
+}
+
+/* Найчастіше використовується */
+
+/* Відносні одиниці вимірювання */
+
+/* Одиниця виміру   -     Відносна до
+
+
+%                      - розміру батьківського елемента (або ж шрифта відповідно). 
+                         Зазвичай використовується для задання розмірів елементів, не тексту */
+/* Приклад використання розмірів */
+.box {
+	background-color: red;
+	width: 200px;
+	height: 200px;
+}
+
+/* Числові значення відносні */
+/* em                     - розміру шрифту батьківського елементу, якщо це для властивості font-size
+                       - розміру шрифту елементу, якщо це для інших властивостей (width) */
+.test-em {
+	font-size: 16px;
+}
+
+.test-em li {
+	font-size: 1.5em;
+}
+
+html {
+	font-size: 16px;
+}
+
+/* rem                    - розміру шрифту рутового елементу */
+.test-rem li {
+	font-size: 1.5rem;
+}
+
+/* vh                     - 1% висоти області перегляду браузера (viewport)
+                         Зазвичай використовується для задання розмірів елементів, не тексту */
+
+/* vw                     - 1% ширини області перегляду браузера (viewport)
+                         Зазвичай використовується для задання розмірів елементів, не тексту */
+
+.box2 {
+	background-color: blue;
+	width: 50vw;
+	height: 30vh;
+}
+
+.box3 {
+	background-color: yellow;
+	width: 75%;
+}
+
+/* ... */
+/* Міжрядковий інтервал (line-height) */
+.Long-text {
+	font-size: 16px;
+	line-height: 20px;
+
+	/* числове значення - множник на font size */
+	/* .line-height: 3.5; */
+
+	/* числове значення */
+	/* .line-height: 3em; */
+
+	/* відсоткове значення - font size */
+	/* .line-height: 34%; */
+}
+
+/* Інтервали між символами (letter-spacing) */
+
+h1 {
+	letter-spacing: 6px;
+}
+
+/* Словесне значення */
+/* letter-spacing: normal; */
+/* числове значення */
+/* letter-spacing: 0.3em;
+letter-spacing: 3px;
+letter-spacing: .3px; */
+
+/* Інтервали між словами (word-spacing) */
+.Long-text {
+	word-spacing: 20px;
+}
+
+/* Словесне значення */
+/* word-spacing: normal; */
+
+/* числове значення */
+/* word-spacing: 3px;
+word-spacing: 0.3em;
+
+word-spacing: 50%;
+word-spacing: 200%; */
+
+/* Регістр тексту (text-transform) */
+
+h2 {
+	text-transform: capitalize;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+h4 {
+	text-transform: lowercase;
+}
+/* text-transform: none; */
+
+/* Забирає підкреслення тексту */
+
+a {
+	text-decoration: none;
+}
